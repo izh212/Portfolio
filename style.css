@@ -64,3 +64,18 @@
 .icons {
   align-self: flex-start;
 }
+
+.work {
+  background-color: #dfe1e6;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 1;
+  padding-top: 144px;
+  
+}
+
+.card {
+  background-color: #fff;
+  width: 311px;
+  height: 326px;
+}
