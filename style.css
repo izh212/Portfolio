@@ -66,16 +66,87 @@
 }
 
 .work {
-  background-color: #dfe1e6;
+  background-color: #f7f7f9;
   display: grid;
-  grid-template-rows: 1;
   grid-template-columns: 1;
-  padding-top: 144px;
-  
+  justify-content: center;
+  gap: 12px;
+  padding: 114px;
 }
 
 .card {
   background-color: #fff;
-  width: 311px;
-  height: 326px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+  height: fit-content;
+}
+
+.tech {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+}
+
+.tag {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  border-radius: 8px;
+  background: #ebebff;
+  padding: 4px 12px;
+}
+
+.description {
+  width: 295px;
+  height: 76px;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.project {
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  color: #396df2;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.title {
+  color: #172b4d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.canopy {
+  color: #344563;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.field {
+  color: #7a869a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
 }
