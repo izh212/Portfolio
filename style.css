@@ -29,32 +29,26 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  margin: auto;
-  width: 327px;
-  padding-top: 114px;
+  padding: 114px 24px;
 }
 
 .primary-text {
   color: #172b4d;
   font-size: 48px;
   font-weight: 800;
-  align-self: center;
-  height: 220px;
 }
 
 .primary-text2 {
   color: #172b4d;
   font-size: 16/24px;
   font-weight: 400;
-  height: 146px;
-  align-self: center;
 }
 
 .connect {
   border: none;
   background: none;
   text-transform: uppercase;
-  align-self: baseline;
+  align-self: flex-start;
   color: #7f8cff;
   font-size: 14px;
   font-weight: 800;
@@ -63,4 +57,133 @@
 
 .icons {
   align-self: flex-start;
+}
+
+.work {
+  background-color: #f7f7f9;
+  display: grid;
+  grid-template-columns: 1;
+  justify-content: center;
+  gap: 12px;
+  padding: 114px;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 16px;
+}
+
+.tech {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+}
+
+.tag {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  border-radius: 8px;
+  background: #ebebff;
+  padding: 4px 12px;
+}
+
+.description {
+  width: 295px;
+  height: 76px;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  color: #396df2;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.title {
+  color: #172b4d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.canopy {
+  color: #344563;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.field {
+  color: #7a869a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.self {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 114px 24px;
+}
+
+.primary-text-self {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.primary-text2-self {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 12px;
+}
+
+.frame-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.language {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 9px 12px;
+}
+
+.drop-menu {
+  rotate: -90deg;
 }
