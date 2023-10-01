@@ -187,3 +187,59 @@
 .drop-menu {
   rotate: -90deg;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  border-radius: 80px 0;
+  gap: 16px;
+  background-image: url(assets/contact\ form\ shapes-mobile.svg);
+  background-color: #6070ff;
+  background-size: contain;
+  background-position-x: 110px;
+  background-repeat: no-repeat;
+  margin-top: 114px;
+}
+
+.contact-me {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact_desc {
+  color: #ebebff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 4%;
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 13px;
+  text-indent: 4%;
+}
+
+.get-in-touch {
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #6070ff;
+  align-self: flex-start;
+  font-size: 17px;
+  font-weight: 500;
+}
