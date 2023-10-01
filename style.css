@@ -187,3 +187,84 @@
 .drop-menu {
   rotate: -90deg;
 }
+
+.contact {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  border-radius: 80px 0;
+  gap: 16px;
+  margin-top: 100px;
+  background-image: url(Assets/contact\ form\ shapes-mobile@2x.png);
+  background-color: #6070ff;
+  background-size: contain;
+  background-position-x: 110px;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+}
+
+.contact-me {
+  color: var(--neutrals-n-0, #fff);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+
+}
+
+.contact_desc {
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 36px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  color: var(--neutral-n-800, #172b4d);
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 4%;
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  font-size: 13px;
+  font-style: normal;
+  text-align: start;
+  line-height: 24px;
+  text-indent: 4%;
+  content: #B3BAC5;
+}
+
+.get-in-touch {
+  padding: 12px 16px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--neutrals-n-0, #fff);
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  align-self: flex-start;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
