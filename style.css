@@ -77,8 +77,13 @@
   cursor: pointer;
 }
 
+.spaced {
+  margin-bottom: 1rem;
+}
+
 .icons {
   align-self: flex-start;
+  margin-bottom: 1.5rem;
 }
 
 .work {
@@ -189,7 +194,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.75rem;
 }
 
 .primary-text-self {
@@ -197,12 +201,13 @@
 }
 
 .primary-text2-self {
-  color: var(--neutrals-n-600, #344563);
+  color:  #344563;
   width: 27.9375rem;
   height: 6.375rem;
   text-align: justify;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 0.75rem;
 }
 
 .frame {
@@ -313,14 +318,6 @@ textarea {
   #li-menu {
     visibility: hidden;
   }
-
-  /* #header-bg-mob {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-  } */
 
   .mylogo {
     color: #6070ff;
@@ -491,10 +488,16 @@ textarea {
     font-weight: 500;
     line-height: 24px;
   }
+  .languages {
+    display: flex;
+    flex-direction: column;
+  }
 
   .language {
     background-color: #f7f7f9;
+    width: auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 16px;
     padding: 9px 12px;
